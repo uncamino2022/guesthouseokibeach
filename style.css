@@ -1,0 +1,198 @@
+a {
+  text-decoration: none;
+}
+header {
+  height: 90px;
+  background-color: teal;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header-left {
+  float: left;
+  margin-top: 15px;
+}
+.header-left p {
+  margin-top: -1px;
+  color: #f7f7f7;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.header-right {
+  float: right;
+  font-weight: bold;
+}
+/* .tyoku:hover {
+  background-color: hotpink;
+  transition: all 1s;
+}
+.rakuten:hover {
+  background-color: blue;
+  transition: all 2s;
+} */
+.header-right a {
+  padding: 0 25px;
+  line-height: 90px;
+  color: #fff;
+  display: block;
+}
+.tyoku {
+  float: left;
+  background-color: darkblue;
+}
+.rakuten {
+  float: right;
+  background-color: green;
+}
+.ask {
+  background-color: grey;
+  float: left;
+}
+.logo {
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+}
+.top-wrapper {
+  padding: 430px 0 100px 0;
+  background-image: url(https://guesthouseokibeach.eyado.net/img/1634881234945.webp);
+  text-align: center;
+  color: #fff;
+}
+.top-wrapper h1 {
+  font-size: 45px;
+  margin-top: -250px;
+  /* opacity: 0.7; */
+}
+.top-wrapper p {
+  font-weight: bold;
+}
+.detail {
+  background-color: rgb(218, 17, 145);
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.tel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.checkin {
+  background-color: navy;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.reserv {
+  background-color: olive;
+}
+.btn {
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+.fumar {
+  color: red;
+}
+.room-wrapper {
+  height: 500px;
+  background-color: #f7f7f7;
+  padding-top: 30px;
+}
+.heading {
+  text-align: center;
+  color: dimgray;
+}
+.rooms {
+  float: left;
+  /* width: 30%; */
+  display: flex;
+  justify-content: space-between;
+}
+.room-icon {
+  float: left;
+}
+.room-icon p {
+  font-weight: bold;
+  color: dimgray;
+}
+.room-icon img {
+  width: 95%;
+  border: 9px solid rgb(13, 74, 205);
+  border-radius: 30%;
+}
+.roomyo {
+  margin-right: 30px;
+  margin-left: -130px;
+}
+.roomyo p {
+  margin-left: 100px;
+}
+.roomyr {
+  margin-right: 30px;
+  }
+  .roomyr p {
+    margin-left: 20px;
+  }
+.roomwa {
+  margin-right: -130px;
+}
+.roomwa p {
+  margin-left: 160px;
+}
+.cafe-wrapper {
+  height: 500px;
+  background-color: #ccc;
+  padding-top: 30px;
+}
+.facils {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+.facil-icon {
+  float: left;
+}
+.facil-icon img {
+  width: 90%;
+}
+.cafe {
+  border: 5px solid black;
+}
+.facil-icon p {
+  color: dimgray;
+  font-weight: bold;
+}
+.bath {
+  border: 5px solid black;
+}
+.bano {
+  border: 5px solid black;
+}
+.beach {
+  border: 5px solid black;
+}
+footer {
+  background-color: steelblue;
+  padding-top: 20px;
+  height: 110px;
+}
+footer p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  float: right;
+}
+.logo2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
